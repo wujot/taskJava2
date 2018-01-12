@@ -4,19 +4,10 @@ public class Books {
     public static void main (String[] args) {
 
         // objects
-        Book book1 = new Book();
-        book1.title = "Nerwy puscily. Czyli kupa wariatow.";
-        book1.author = "Janusz Korwin-Mikke";
-        book1.editor = "Red Horse";
-        book1.chapters = 6;
-        book1.pages = 271;
-
-        Book book2 = new Book();
-        book2.title = "Michnikowszczyzna.";
-        book2.author = "Rafal A. Ziemkiewicz";
-        book2.editor = "Fabryka Slow";
-        book2.chapters = 7;
-        book2.pages = 377;
+        Book book1 = new Book("Nerwy puscily. Czyli kupa wariatow.", "Janusz Korwin-Mikke", "Red Horse",
+                271, 6);
+        Book book2 = new Book("Michnikowszczyzna.", "Rafal A. Ziemkiewicz", "Fabryka Slow",
+                377, 7);
 
         // print message
         System.out.println("Book 1:");
